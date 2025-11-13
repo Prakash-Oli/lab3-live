@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Toy Car Show Case</h1>
+        <p>
+        Create and view toy car of your Choice.
+        </p>
+    </header>
+
+    <form id="carForm">
+        <h3>Add new toy car</h3>
+        <label for="modelName">Model Name:</label>
+        <input type="text" required id="modelName" placeholder="Enter model name of car">
+
+        <label for="carBrand">Brand Name:</label>
+        <input type="text" required id="carBrand" placeholder="Enter Car Brand">
+
+        <label for="carColor">Car Color:</label>
+        <input type="text" required id="carColor" placeholder="Enter Car Color">
+
+        <label for="carScale">Car Scale:</label>
+        <input type="text" required id="carScale" value="1/20 Scale">
+
+        <label for="carType">Car Type:</label>
+        <input type="text" required id="carType" placeholder="Enter type of car">
+
+        <label for="carMeterial">Car Meterial:</label>
+        <input type="text" required id="carMeterial" value="Top Grade Iron">
+
+        <label for="carWeight">Car Weight:</label>
+        <input type="text" required id="carWeight" value="0.2 - 0.5 (lbs)">
+
+        <label for="carLength">Car Length:</label>
+        <input type="text" required id="carLength" placeholder="Enter Car Length">
+
+        <label for="manufactureYear">Manufacture Year:</label>
+        <input type="text" required id="manufactureYear" placeholder="Enter Year Of Manufacture">
+
+        <label for="carPrice">Car Price ($):</label>
+        <input type="text" required id="carPrice" value="12.99">
+
+        <button type="submit">
+            Add Car
+        </button>
+
+    </form>
+    <div id="carList">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

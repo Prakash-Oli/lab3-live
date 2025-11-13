@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    padding: 18px;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+}
+
+form{
+    background: blanchedalmond;
+    max-width: 555px;
+    margin: 18px auto;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+label{
+    display: block;
+    margin-top: 9px;
+}
+
+input{
+    width: 95%;
+    padding: 8px;
+    margin-top: 3px;
+    border-radius: 12px;
+    border: 1.1px solid salmon;
+}
+
+button{
+    margin-top: 12px;
+    padding: 8px 12px;
+    background-color: blueviolet;
+    color: aquamarine;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.car-card{
+    background: white;
+    width: 280px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1.5px solid salmon;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.car-card button{
+    margin-top: 10px;
+    background-color: #28a755;
+}
+
+.car-card button:hover{
+    background-color: #13f355;
+}
